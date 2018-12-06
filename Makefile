@@ -1,5 +1,6 @@
 # Image URL to use all building/pushing image targets
 #REPO ?= 'ccr.ccs.tencentyun.com/ccs-dev'
+#
 REPO ?= ccr.ccs.tencentyun.com/chenky
 TAG ?= 0.0.4
 GENERIC_IMG=$(REPO)/clusterapi-generic-controller:$(TAG)
